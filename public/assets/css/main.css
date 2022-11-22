@@ -1,0 +1,199 @@
+/* start global rules */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html body {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+label.form-control {
+    border: none;
+    background-color: unset;
+}
+
+span.is-invalid {
+    font-size: .875em;
+    color: #dc3545;
+}
+
+
+/* End global rules */
+
+/* start post style */
+.post {
+    background-color: #FFF;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 2px solid #e3e3e3;
+}
+
+.post .image {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.post .title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.post .info {
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.post .info {
+    overflow: hidden;
+}
+
+.post .info span:first-child {
+    float: left;
+}
+
+.post .info span:nth-child(2) {
+    float: right;
+}
+
+.online-users {
+    padding: 10px;
+}
+
+.online-users h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.online-users ul li {
+    position: relative;
+}
+
+.online-users ul li img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.online-users ul li span.online-status {
+    width: 12px;
+    height: 12px;
+    background-color: #12df12;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: 58%;
+    left: 8%;
+    border: 2px solid #FFF;
+}
+
+.post-comments {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.post-comments .comment {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.post-comments .comment .image {
+    margin-right: 8px;
+}
+
+.post-comments .comment .comment-info b {
+    margin-right: 10px;
+}
+
+.post-comments .comment .comment-info span {
+    color: #b1b1b1;
+    font-size: 12px;
+}
+
+.uploadOuter {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.uploadOuter strong {
+    padding: 0 10px
+}
+
+.dragBox {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    line-height: 95px;
+    color: #999;
+    border: 2px dashed #ccc;
+    display: inline-block;
+    transition: transform 0.3s;
+
+}
+
+.dragBox input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: pointer
+}
+
+.draging {
+    transform: scale(1.1);
+}
+
+#preview {
+    text-align: center;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#preview img {
+    max-width: 100%;
+}
+
+#container {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 200px;
+}
+
+.ck-content .image {
+    /* block images */
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+
+
+/* end post style */
